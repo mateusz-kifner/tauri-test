@@ -13,6 +13,7 @@ pub fn run() {
     // Don't write code before Tauri starts, write it in the
     // setup hook instead!
     tauri::Builder::default()
+        .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_fs::init())
         // Register a `State` to be managed by Tauri
         // We need write access to it so we wrap it in a `Mutex`
@@ -36,14 +37,10 @@ pub fn run() {
         .expect("error while running tauri application");
 }
 
-
-
-
 #[tauri::command]
 fn greet(name: String) -> String {
     format!("Hello {name} from Rust!")
 }
-
 
 // A custom task for setting the state of a setup task
 #[tauri::command]
