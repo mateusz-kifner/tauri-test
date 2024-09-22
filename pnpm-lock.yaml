@@ -12,10 +12,10 @@ importers:
         specifier: 2.0.0-rc.4
         version: 2.0.0-rc.4
       '@tauri-apps/plugin-dialog':
-        specifier: ^2.0.0-rc
+        specifier: 2.0.0-rc.1
         version: 2.0.0-rc.1
       '@tauri-apps/plugin-fs':
-        specifier: ^2.0.0-rc
+        specifier: 2.0.0-rc.2
         version: 2.0.0-rc.2
       next:
         specifier: 14.2.11

@@ -15,18 +15,9 @@
         "width": 800,
         "height": 600,
         "resizable": true,
-        "fullscreen": false,
-        "visible": false
-      },
-      {
-        "title": "Tauri Next Splashscreen",
-        "resizable": false,
-        "width": 400,
-        "height": 400,
-        "decorations": false,
-        "label": "splashscreen",
-        "url": "/splashscreen"
-    }
+        "fullscreen": false
+       
+      }
     ],
     "security": {
       "csp": null
